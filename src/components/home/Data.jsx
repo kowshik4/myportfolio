@@ -56,8 +56,8 @@ const Data = () => {
                     ></path>
                 </svg>
             </h1>
-            <h3 className='home__subtitle'>Fullstack Developer</h3>
-            <p className='home__description'>I am a Fullstack Developer with experience in building websites using modern technologies like React, JavaScript, HTML, CSS, MongoDB and more.</p>
+            <h3 className='home__subtitle'>Masters Student at University of North Carolina, Charlotte</h3>
+            <p className='home__description'>I am currently pursuing Master's in Computer Science at the University of North Carolina, Charlotte, with an expected graduation in December 2024.</p>
             <a href="#contact" className='button button--flex'>
                 Say Hello 
                 <svg

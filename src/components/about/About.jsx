@@ -13,7 +13,9 @@ const About = () => {
                 <img src={AboutImg} alt='' className='about__img' />
                 <div className='about__data'>
                     <Info />
-                    <p className='about__description'>I am a Fullstack developer with a passion for developing end to end  applications. I enjoy creating web applications and websites that provide value to people. I am always eager to learn new technologies and improve my skills.</p>
+                    <p className='about__description'> Before beginning my Master's program, I spent over two years working as a software developer at Tata Consultancy Services. During that time, I contributed to various projects utilizing technologies like Java, JavaScript, MySQL, and IBM BPM. Additionally, I have experience in web development using modern tools such as React, Node.js, JavaScript, HTML, CSS, and MongoDB. I am particularly interested in working with Machine Learning models and have completed some projects in Machine Learning and Deep Learning.
+
+I am always eager to explore and learn new technologies. My curiosity drives me to stay updated with the latest advancements and continuously expand my skill set. This passion for learning allows me to adapt quickly to new tools and methodologies, enhancing my ability to contribute effectively to various projects.</p>
                     
                     <div className='about__buttons'>
                         <a download='' href={Resume} className='button button--flex'>
