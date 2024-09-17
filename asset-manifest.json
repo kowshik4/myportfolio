@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9113fdc2.css",
-    "main.js": "/static/js/main.ce587429.js",
+    "main.css": "/static/css/main.532bea2d.css",
+    "main.js": "/static/js/main.378186f4.js",
     "static/js/453.83234151.chunk.js": "/static/js/453.83234151.chunk.js",
     "static/media/about.jpg": "/static/media/about.6a2cff0d6c248bb67cc5.jpg",
     "static/media/profile.jpg": "/static/media/profile.6a2cff0d6c248bb67cc5.jpg",
     "static/media/Kowshik-Resume.pdf": "/static/media/Kowshik-Resume.29d962f5f819ea78b88f.pdf",
     "index.html": "/index.html",
-    "main.9113fdc2.css.map": "/static/css/main.9113fdc2.css.map",
-    "main.ce587429.js.map": "/static/js/main.ce587429.js.map",
+    "main.532bea2d.css.map": "/static/css/main.532bea2d.css.map",
+    "main.378186f4.js.map": "/static/js/main.378186f4.js.map",
     "453.83234151.chunk.js.map": "/static/js/453.83234151.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9113fdc2.css",
-    "static/js/main.ce587429.js"
+    "static/css/main.532bea2d.css",
+    "static/js/main.378186f4.js"
   ]
 }
