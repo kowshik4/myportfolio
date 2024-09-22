@@ -10,18 +10,18 @@ const Info = () => {
                 <span className='about__subtitle'>2+ years</span>
             </div>
             
+            <div className='about__box'>            
+            <i class='bx bx-buildings about__icon'></i>
+
+                <h3 className='about__title'>Roles</h3>
+                <span className='about__subtitle'>3</span>
+            </div>
+
             <div className='about__box'>
             <i class='bx bx-briefcase about__icon'></i>
 
                 <h3 className='about__title'>Projects</h3>
                 <span className='about__subtitle'>4</span>
-            </div>
-
-            <div className='about__box'>
-            <i class='bx bx-buildings about__icon'></i>
-
-                <h3 className='about__title'>Companies</h3>
-                <span className='about__subtitle'>2</span>
             </div>
         </div>
     )

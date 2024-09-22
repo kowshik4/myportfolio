@@ -1,54 +1,41 @@
 /* src/components/Timeline.css */
 .timeline {
-    align-items: center;
-    position: relative;
-    padding: 20px 0;
-    margin: 20px 0;
-  }
+  position: relative;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
   
   .timeline-item {
-    left: 20px;
-    top: 5px;
-    margin-bottom: 20px;
     position: relative;
+    width: 100%;
+    padding: 1rem 0;
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
   }
 
   .timeline-line {
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 3px;
-    background-color: var(--title-color);
+    width: 4px;
+    background-color: #333;
     top: 0;
     bottom: 0;
-  }
-
-  .timeline-dot {
-    position: absolute;
-    left: calc(47% + 9px);
+    left: 50%;
     transform: translateX(-50%);
-    width: 12px;
-    height: 12px;
-    background-color: var(--title-color);
-    border-radius: 50%;
-    top: 0;
-    z-index: 1;
-  }
+}
   
   .timeline-date {
     position: absolute;
-    left: calc(25% + 10px);
-    top: 5px;
-    font-size: 12px;
+    font-size: var(--small-font-size);
     color: var(--title-color);
+    left: 50%;
   }
   
   .timeline-content {
     left: 20px;
     top: 5px;
-    margin-left: calc(50% + 40px);
+    margin-left: calc(50% + 4rem);
     padding: 10px;
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -95,76 +82,93 @@
 
 
   .timeline-item.right .timeline-content {
-    right: 10px;
+    right: 1rem;
     margin-left: auto;
     margin-right: 60%;
     text-align: left;
   }
 
   .timeline-item.left .timeline-content {
-    left: 10px;
+    left: 1rem;
     margin-left: 55%;
     margin-right: auto;
     text-align: right;
   }
 
   .timeline-item.left .timeline-date {
-    left: calc(25% + 10px);
+    left: 25%;
     text-align: left;
   }
 
   .timeline-item.right .timeline-date {
-    right: calc(25% + 10px);
+    right: 25%;
     text-align: right;
   }
 
-  /*=============== BREAKPOINTS ===============*/
+
+/*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-
+    .timeline-item.right .timeline-content {
+      margin-right: 50%;
+  }
+  .timeline-item.left .timeline-content {
+      margin-left: 50%;
+  }
+  .timeline-item.left .timeline-date {
+      left: calc(20% + 1rem);
+  }
+  .timeline-item.right .timeline-date {
+      right: calc(20% + 1rem);
+  }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+    .timeline-item.right .timeline-content {
+      margin-right: 40%;
+  }
+  .timeline-item.left .timeline-content {
+      margin-left: 40%;
+  }
   .timeline-item.left .timeline-date {
-    left: calc(10% + 1px);
-    text-align: left;
+      left: calc(15% + 1rem);
   }
   .timeline-item.right .timeline-date {
-    position: absolute;
-    right: calc(10% + 10px);
-    text-align: right;
+      right: calc(15% + 1rem);
   }
-  .timeline-dot {
-    left: calc(45% + 9px);
-  }
-
 }
 
 @media screen and (max-width: 576px) {
-  .timeline-item.left .timeline-date {
-    left: calc(10% + 1px);
-    text-align: left;
+  .timeline-item.right .timeline-content,
+  .timeline-item.left .timeline-content {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      width: 95%;
+      font-size: var(--small-font-size);
   }
+  .timeline-item.left .timeline-date,
   .timeline-item.right .timeline-date {
-    position: absolute;
-    right: calc(10% + 10px);
-    text-align: right;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
   }
-
-  .timeline-content {
-    font-size: small;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 1rem 1.25rem;
-  }
-
-  .timeline-dot {
-    left: calc(43% + 9px);
+  .timeline-date {
+      font-size: var(--smaller-font-size);
+      padding: 0.5rem;
   }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  
+  .timeline-item.right .timeline-content,
+  .timeline-item.left .timeline-content {
+      width: 100%;
+      font-size: var(--smaller-font-size);
+  }
+  .timeline-date {
+    font-size: var(--smaller-font-size);
+    text-align: center;
+}
 }

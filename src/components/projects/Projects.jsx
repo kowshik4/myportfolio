@@ -21,12 +21,18 @@ const projects = [
       technologies: ['JavaScript', 'NodeJS', 'ExpressJS', 'MongoDB'],
       link: 'https://github.com/kowshik4/Techtrade',
     },
+    {
+      title: 'Sentiment Analysis for Twitter Data',
+      description: 'Developed a text classification model using Python and Keras, applying NLP techniques for sentiment analysis and document categorization. Fine-tuned model parameters to improve accuracy, achieving a 92% classification success rate.',
+      technologies: ['Python', 'Keras', 'NLP', 'Machine Learning'],
+    },
     // Add more projects as needed
   ];
 
 
   const ProjectCard = ({ project }) => (
     <div className="project-card">
+      <div className="project__content">
       <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
       <h3>{project.title}</h3></a><br />
       <br></br><p>{project.description}</p>
@@ -34,6 +40,7 @@ const projects = [
       <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
         View Project
       </a>
+      </div>
     </div>
   );
 
