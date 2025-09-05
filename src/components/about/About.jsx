@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import AboutImg from '../../assets/about.jpg';
-import Resume from '../../assets/Kowshik-Resume.pdf';
+import Resume from '../../assets/VENKATA SAIRAMA KOWSHIK MOSALAKANTI_Org.pdf';
 
 const About = () => {
     return (
@@ -11,7 +11,7 @@ const About = () => {
             <div className='about__container container grid'>
                 <img src={AboutImg} alt='' className='about__img' />
                 <div className='about__data'>
-                    <p className='about__description'> Before beginning my Master's program, I spent over two years working as a software developer at Tata Consultancy Services. During that time, I contributed to various projects utilizing technologies like Java, JavaScript, MySQL, and IBM BPM. Additionally, I have experience in web development using modern tools such as React, Node.js, JavaScript, HTML, CSS, and MongoDB. I am particularly interested in working with Machine Learning models and have completed some projects in Machine Learning and Deep Learning.
+                    <p className='about__description'> Before beginning my Master's program, I spent over two years working as a software engineer at Tata Consultancy Services. During that time, I contributed to various projects utilizing technologies like Java, JavaScript, MySQL, and IBM BPM. Additionally, I have experience in web development using modern tools such as React, Node.js, JavaScript, HTML, CSS, and MongoDB. I am particularly interested in working with Machine Learning models and have completed some projects in Machine Learning and Deep Learning.
 
 I am always eager to explore and learn new technologies. My curiosity drives me to stay updated with the latest advancements and continuously expand my skill set. This passion for learning allows me to adapt quickly to new tools and methodologies, enhancing my ability to contribute effectively to various projects.</p>
                     

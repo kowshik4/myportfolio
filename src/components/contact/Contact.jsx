@@ -29,7 +29,7 @@ const Contact = () => {
                             <div>
                                 <h3 className='contact__card-title'>LinkedIn</h3>
                                 <span className='contact__card-data'>KowshikSai
-                                <a href='https://www.linkedin.com/in/kowshik-sai-133611140/' className='contact__button'>
+                                <a href='https://www.linkedin.com/in/kowshik-mos/' className='contact__button'>
                                 <i className='bx bx-right-arrow-alt contact__button-icon'></i></a>
                                 </span>
                                 
